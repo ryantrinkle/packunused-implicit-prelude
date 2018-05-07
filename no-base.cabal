@@ -1,0 +1,11 @@
+name: no-base
+version: 0.1
+cabal-version: >= 1.8
+build-type: Simple
+
+library
+  hs-source-dirs: src
+  build-depends:
+    base
+  exposed-modules:
+    NoBase
